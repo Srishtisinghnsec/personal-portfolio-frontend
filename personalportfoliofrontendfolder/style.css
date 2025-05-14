@@ -1,0 +1,82 @@
+body{
+    margin:50px 40px;
+}
+.right-container{
+display:flex;
+align-items: center;
+justify-content:space-between;
+padding:10px 20px;
+}
+.button{
+    display:flex;
+    flex-direction: row; 
+    gap:15px;
+
+    
+}
+.right-container p{
+    margin:0;
+}
+.intro{
+    margin:25px 10px;
+    background-color: #f2ebe0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 10px;
+}
+.intro-text{
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+    max-width: 80%;
+    font-size: 20px;
+}
+.intro img{
+    padding:5px 10px;
+    border-radius: 50%;
+    height:fit-content;
+    width: 200px;
+}
+.about h3{
+    font-size: 25px;
+}
+.about p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.project{
+    font-size:25px;
+    padding: 5px 10px;
+}
+.project h3{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20%;
+}
+.Project1,.Project2,.Project3,.Project4{
+    background-color: #f2ebe0;
+    padding:10px 10px;
+}
+.Project1 h5,.Project2 h5,.Project3 h5,.Project4 h5{
+    font-size: 20px;;
+}
+.Project1 p,.Project2 p,.Project3 p,.Project4 p{
+    font-size: 15px;
+}
+.contact p{
+    font-size:10px;
+}
+.input{
+    font-size:15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
